@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id"> 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tujuan Pembelajaran - Sistem Komputer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset dan base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      color: #4C585B;
+      background: linear-gradient(to bottom, #F4EDD3, #A5BFCC);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header dan Navigasi */
+    header {
+      background-color: #F9F3EF;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4C585B;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    nav a:hover {
+      background-color: #A5BFCC;
+      color: #F9F3EF;
+      transform: scale(1.05);
+    }
+
+    /* Main Content */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .tujuan-section {
+      background-color: #F9F3EF;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .tujuan-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #4C585B;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .tujuan-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .tujuan-item h3 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #4C585B;
+      margin-bottom: 0.5rem;
+    }
+
+    .tujuan-item ul {
+      font-size: 1rem;
+      color: #7E99A3;
+      line-height: 1.6;
+      margin-left: 1.5rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #F9F3EF;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #7E99A3;
+      border-top: 1px solid #A5BFCC;
+    }
+
+    /* Responsivitas */
+    @media (max-width: 768px) {
+      .tujuan-title {
+        font-size: 1.5rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="profile.html">👤 Profile</a></li>
+        <li><a href="absensi.html">🧾 Absensi</a></li>
+        <li><a href="Tujuan.html">🎯 Tujuan Pembelajaran</a></li>
+        <li><a href="Materi.html">📘 Materi</a></li>
+        <li><a href="Tugas.html">🧩 Tugas</a></li>
+        <li><a href="Game.html">🎮 Game</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="tujuan-section">
+      <h2 class="tujuan-title">🎯 Tujuan Pembelajaran</h2>
+
+      <div class="tujuan-item">
+        <h3>Topik: Pemahaman Dasar Sistem Komputer</h3>
+        <ul>
+          <li>Mahasiswa mampu menjelaskan pengertian perangkat keras (hardware) dan perangkat lunak (software) serta membedakan jenis-jenisnya.</li>
+          <li>Mahasiswa dapat mengidentifikasi minimal 5 contoh perangkat keras beserta fungsinya.</li>
+          <li>Mahasiswa mampu membuat bagan hubungan antara hardware, software, dan brainware serta menjelaskan alur kerjanya.</li>
+          <li>Mahasiswa dapat menganalisis spesifikasi komputer/laptop dan menjelaskan fungsi komponen utamanya seperti CPU, RAM, HDD/SSD, GPU, dll.</li>
+          <li>Mahasiswa mampu mengidentifikasi masalah umum pada perangkat keras dan memberikan solusi penyelesaiannya.</li>
+        </ul>
+      </div>
+
+      <div class="tujuan-item">
+        <h3>Topik: Penerapan Sistem Komputer dalam Kehidupan</h3>
+        <ul>
+          <li>Mahasiswa mampu membuat poster digital yang menjelaskan perbedaan dan hubungan antara hardware, software, dan brainware.</li>
+          <li>Mahasiswa dapat melakukan observasi untuk mengidentifikasi perangkat keras dan lunak yang digunakan sehari-hari serta membuat tabel perbandingan fungsi dan manfaatnya.</li>
+          <li>Mahasiswa mampu merancang diagram sistem komputer sederhana dan menjelaskan komponen hardware serta software yang diperlukan.</li>
+          <li>Mahasiswa dapat membuat video pendek yang menjelaskan proses kerja komputer dari input hingga output.</li>
+          <li>Mahasiswa mampu mempresentasikan hasil proyek kelompok dan merefleksikan pentingnya pemahaman sistem komputer dalam dunia kerja digital.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 | Media Pembelajaran TIK - Sistem Komputer by Thomas Pantur</p>
+  </footer>
+</body>
+</html>

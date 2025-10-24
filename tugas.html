@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id"> 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tugas - Sistem Komputer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset dan base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      color: #4C585B;
+      background: linear-gradient(to bottom, #F4EDD3, #A5BFCC);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header dan Navigasi */
+    header {
+      background-color: #F9F3EF;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4C585B;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    nav a:hover {
+      background-color: #A5BFCC;
+      color: #F9F3EF;
+      transform: scale(1.05);
+    }
+
+    /* Main Content */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .tugas-section {
+      background-color: #F9F3EF;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .tugas-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #4C585B;
+      margin-bottom: 1rem;
+    }
+
+    .tugas-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .tugas-item h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #4C585B;
+      margin-bottom: 0.5rem;
+    }
+
+    .tugas-item p, .tugas-item ul {
+      font-size: 1rem;
+      color: #7E99A3;
+      line-height: 1.6;
+    }
+
+    .tugas-item ul {
+      margin-left: 1.5rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #F9F3EF;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #7E99A3;
+      border-top: 1px solid #A5BFCC;
+    }
+
+    /* Responsivitas */
+    @media (max-width: 768px) {
+      .tugas-title {
+        font-size: 1.3rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="profile.html">👤 Profile</a></li>
+        <li><a href="absensi.html">🧾 Absensi</a></li>
+        <li><a href="Tujuan.html">🎯 Tujuan Pembelajaran</a></li>
+        <li><a href="Materi.html">📘 Materi</a></li>
+        <li><a href="Tugas.html">🧩 Tugas</a></li>
+        <li><a href="Game.html">🎮 Game</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="tugas-section">
+      <h2 class="tugas-title">🧩 Tugas Pembelajaran Sistem Komputer</h2>
+
+      <div class="tugas-item">
+        <h3>📝 TUGAS MANDIRI</h3>
+        <p><strong>Topik: Pemahaman Dasar Sistem Komputer</strong></p>
+        <ul>
+          <li>Jelaskan pengertian perangkat keras (hardware) dan sebutkan minimal 5 contohnya beserta fungsinya.</li>
+          <li>Jelaskan pengertian perangkat lunak (software) dan bedakan antara system software dan application software.</li>
+          <li>Buat bagan hubungan antara hardware, software, dan brainware dalam sistem komputer, lalu jelaskan alur kerjanya secara singkat.</li>
+          <li>Cari dan tulis spesifikasi komputer/laptop yang kamu gunakan, lalu jelaskan fungsi dari masing-masing komponennya (CPU, RAM, HDD/SSD, GPU, dll).</li>
+          <li>Tuliskan 3 contoh masalah yang sering terjadi pada perangkat keras dan cara mengatasinya.</li>
+        </ul>
+      </div>
+
+      <div class="tugas-item">
+        <h3>🤝 TUGAS KELOMPOK</h3>
+        <p><strong>Topik: Penerapan Sistem Komputer dalam Kehidupan</strong></p>
+        <ul>
+          <li>Buat poster digital yang menjelaskan perbedaan dan hubungan antara hardware, software, dan brainware dalam sistem komputer.</li>
+          <li>Lakukan observasi di sekolah atau rumah untuk mengidentifikasi 3 jenis perangkat keras dan perangkat lunak yang sering digunakan, lalu buat tabel perbandingan fungsi dan manfaatnya.</li>
+          <li>Rancang diagram sistem komputer sederhana (misalnya sistem kasir, sistem absensi, atau laboratorium komputer) dan jelaskan komponen hardware dan software yang dibutuhkan.</li>
+          <li>Buat video pendek (2–3 menit) yang menjelaskan proses kerja komputer dari input hingga output menggunakan bahasa sendiri.</li>
+          <li>Presentasikan hasil proyek kelompok kalian di depan kelas dengan menggunakan media presentasi (PowerPoint, Canva, atau HTML sederhana). Sertakan refleksi: “Mengapa pemahaman sistem komputer penting dalam dunia kerja digital?”</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 | Media Pembelajaran TIK - Sistem Komputer by Thomas Pantur</p>
+  </footer>
+</body>
+</html>
